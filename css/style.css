@@ -1,0 +1,18 @@
+body {
+  color: mediumseagreen; /*changes the color of things displayed by the body of html*/
+}
+.hidden {
+  display: none;
+}
+
+.abs {
+  position: absolute; /* if we want to use z-index, we need to have a position attribute. (i.e absolute, relative, fixed, etc). */
+  left: 0; /*0 is the closest to left*/
+  top: 0; /*0 is the closest to top*/
+  z-index: 1; /*this can control which goes on top or bottom*/
+}
+
+.rest {
+  position: relative; /* relative positioning dont allow overlay by default(unless user specified) unlike absolute positioning.*/
+  z-index: 2;
+}
