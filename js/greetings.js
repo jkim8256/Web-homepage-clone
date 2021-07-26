@@ -35,3 +35,4 @@ if (localusername === null) {
 
 const REST = "rest";
 greeting.classList.add(REST);
+logInForm.classList.add(REST);
