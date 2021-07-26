@@ -15,13 +15,7 @@
       <!-- to use the input validation like " required maxlength="15" minlength="5" ", you need to have input inside tag "form"-->
       <!-- but everytime we click the button or hit enter, we are submitting the form(website refreshes), so the value goes away.-->
       <!-- OR the tag <input type="submit" value="Log In"> submits as well -->
-      <input
-        required
-        maxlength="15"
-        minlength="5"
-        type="text"
-        placeholder="What is your name?"
-      />
+      <input required type="text" placeholder="What is your name?" />
       <button>Log In</button>
     </form>
 
@@ -37,10 +31,16 @@
       <span></span>
     </div>
 
+    <form id="search">
+      <input required placeholder="Search" />
+      <button>Search</button>
+    </form>
+
     <script src="js/greetings.js"></script>
     <script src="js/clock.js"></script>
     <script src="js/quotes.js"></script>
     <script src="js/background.js"></script>
+    <script src="js/search.js"></script>
     <!-- this is how you connect js to html-->
   </body>
 </html>
