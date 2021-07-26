@@ -9,6 +9,8 @@ body {
   position: absolute; /* if we want to use z-index, we need to have a position attribute. (i.e absolute, relative, fixed, etc). */
   left: 0; /*0 is the closest to left*/
   top: 0; /*0 is the closest to top*/
+  height: 100%;
+  width: 100%;
   z-index: 1; /*this can control which goes on top or bottom*/
 }
 
