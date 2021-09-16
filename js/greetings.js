@@ -17,7 +17,7 @@ handleSubmit = (event) => {
   //by adding an argument, the eventlistener will give you some info to the argument on what just happened when the event happens
   event.preventDefault(); //preventDefault stops the default behavior of any event(which refreshes the page as it submits)
   const username = logInInput.value;
-  localStorage.setItem(USERNAME_KEY, username);
+  localStorage.setItem(USERNAME_KEY, username); //stores username in the local storage to remember for next time.
   logInForm.classList.add("hidden");
   console.dir(logInForm);
   paintGreetings(username);
