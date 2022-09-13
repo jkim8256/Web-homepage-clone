@@ -1,5 +1,5 @@
-const images = ["japan.jpg", "korea.jpg", "moonlight.jpg", "norae.jpg"];
-
+const images = ["japan.jpg", "korea.jpg"];
+`
 const chosenIamge = images[Math.floor(Math.random() * images.length)];
 
 const bgImage = document.createElement("img"); //creates an html tag named img
